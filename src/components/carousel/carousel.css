@@ -1,0 +1,5 @@
+.carousel .carousel-indicators [data-bs-target] {
+  height: 5px;
+  padding: 0 3px;
+  background-color: gold;
+}

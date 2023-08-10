@@ -1,0 +1,48 @@
+.site_title {
+  color: var(--color-heading);
+}
+
+.title {
+  font-size: x-large;
+}
+
+.subtitle {
+  font-size: 1.6em;
+}
+
+.site_title h1,
+.site_title h2 {
+  margin-bottom: unset;
+  font-weight: bold;
+}
+
+header {
+  position: relative;
+}
+
+header::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../../assets/mount-bg.jpg) 10% 34%;
+  background-size: cover;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+.site_heading {
+  padding: 1rem 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.site_logo {
+  margin-right: 1rem;
+}
+
+.site_logo img {
+  width: 95px;
+  height: 90px;
+}

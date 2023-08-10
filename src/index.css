@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+:root {
+  --font-family: "Kanit", sans-serif;
+  --color-bg: rgb(60, 202, 126);
+  --color-heading: #0e7940;
+  --color-text-bright: azure;
+  --color-text-dark: #202020;
+  --color-warm: burlywood;
+  --color-prefoot: #fbfae8;
+  --color-darkgreen: #4c6a52;
+  --color-lightgreen: #849f7e;
+  --color-lightergreen: #b8ccb1;
+}

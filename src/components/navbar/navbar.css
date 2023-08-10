@@ -1,0 +1,51 @@
+.navbar {
+  background-color: var(--color-darkgreen);
+  font-size: 17px;
+}
+
+.navbar-nav {
+  margin-left: 4.5rem;
+}
+
+.navbar-nav li a,
+.navbar .navbar-nav .nav-link:focus {
+  color: var(--color-text-bright);
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  border-color: transparent;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.show {
+  color: var(--color-warm);
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: var(--color-text-bright);
+  font-weight: normal;
+  border-color: var(--color-warm);
+  border-width: 3.5px;
+}
+
+.d-flex {
+  margin-right: 5rem;
+}
+
+.dropdown .dropdown-menu {
+  background-color: var(--color-darkgreen);
+  border-color: var(--color-lightgreen);
+}
+
+.dropdown a:hover {
+  background-color: transparent;
+  color: var(--color-warm);
+}
+
+.dropdown .dropdown-item {
+  margin: 2px 5px;
+}
+
+.dropdown .dropdown-item.active {
+  color: var(--color-warm);
+  background-color: transparent;
+}

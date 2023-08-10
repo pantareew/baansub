@@ -1,0 +1,29 @@
+.template {
+  background: url(../../assets/tree.jpg) 50%;
+  background-size: cover;
+}
+
+.template .container {
+  position: relative;
+  justify-content: center;
+  background-color: var(--color-lightergreen);
+  max-width: 70%;
+  padding: 0;
+  height: 100%;
+}
+
+.template h4 {
+  color: var(--color-darkgreen);
+  left: 0;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.template hr {
+  width: 100%;
+  margin: 0;
+}
+.body {
+  width: 100%;
+  padding: 15px;
+}
