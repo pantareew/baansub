@@ -1,0 +1,51 @@
+.contentBox {
+  position: relative;
+  background: url(../../assets/tree.jpg) 50%;
+  background-size: cover;
+}
+.contentBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.tips,
+.calendar {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.tips .carousel-item,
+.calendar .carousel-item {
+  height: 70vh;
+}
+
+.tips .carousel-item img,
+.calendar .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+.calendar .carousel-item {
+  border-top: 3rem solid #a3b03a;
+}
+.tips .carousel-item {
+  border-top: 3rem solid #5d877d;
+}
+.vdo {
+  margin: 50px 0 25px 0;
+  width: 100%;
+}
+.vdo .carousel-item {
+  border-top: 3rem solid #65633f;
+}
+
+.vdo .carousel-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
