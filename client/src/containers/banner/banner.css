@@ -1,0 +1,5 @@
+.banner .alert {
+  background-color: var(--color-lightgreen);
+  margin: 20px;
+  border-bottom: 5px solid var(--color-darkgreen);
+}

@@ -1,0 +1,22 @@
+.logo-link img {
+  margin: 5px 20px;
+  max-height: 50px;
+  max-width: 40%;
+}
+
+.pre-footer {
+  background-color: var(--color-prefoot);
+}
+
+.logo-link {
+  width: 100%;
+}
+
+.main-footer {
+  background-color: #486c4f;
+}
+
+.main-footer .desc {
+  padding: 2rem 0;
+  color: var(--color-text-bright);
+}

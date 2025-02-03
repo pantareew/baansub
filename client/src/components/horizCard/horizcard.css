@@ -1,0 +1,11 @@
+.horizcard .card {
+  border-color: transparent;
+  background-color: var(--color-lightergreen);
+}
+
+.horizcard .horizcard-item {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--color-lightgreen);
+  border-radius: 10px;
+}
