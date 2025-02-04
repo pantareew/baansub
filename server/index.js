@@ -3,7 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const Slideshow = require("./models/slideshow");
 const Blog = require("./models/blog");
-const Service = require("./models/Service");
+const Service = require("./models/service");
 const Event = require("./models/event");
 
 require("dotenv").config();
